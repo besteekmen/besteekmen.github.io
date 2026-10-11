@@ -66,8 +66,8 @@
       <div class="social-links">
         <a href="https://www.linkedin.com/in/besteekmen" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://www.instagram.com/besteekmen" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.facebook.com/ekmenb" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://join.skype.com/invite/hb4Eu1N2HcA4" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://github.com/besteekmen" class="github"><i class="bx bxl-github"></i></a>
+        <!--<a href="https://join.skype.com/invite/hb4Eu1N2HcA4" class="google-plus"><i class="bx bxl-skype"></i></a>-->
       </div>
     </div>
   </section><!-- End Hero -->
@@ -94,7 +94,7 @@
             <p class="fst-italic">
               M.Sc. graduate in Visual Computing from Saarland University.
             </p>
-            <div class="row">
+            <!--<div class="row">
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>besteekmen@gmail.com</span></li>
@@ -106,7 +106,7 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Saarbrücken, Germany</span></li>
                 </ul>
               </div>
-            </div>
+            </div>-->
             <p>
               I am very interested in computer vision and computer graphics, especially in the topics of human faces and facial animation, 
               3D animation, tracking-based video and image generation, machine learning and deep learning applications in computer vision and graphics, 
@@ -184,7 +184,16 @@
 
         <div class="row skills-content">
 
-          <div class="col-lg-6">
+          <div class="col-lg-12">
+            <ul class="no-bullets">
+              <li><strong>Computer vision & ML:</strong> PyTorch, TensorFlow, OpenCV, scikit-learn, GANs, SHAP</li>
+              <li><strong>Data & pipelines:</strong> Python, pandas, SQL/PostgreSQL, Docker, GitHub Actions</li>
+              <li><strong>Languages:</strong> Python, C/C++, JavaScript</li>
+              <li><strong>Earlier web work:</strong> HTML, CSS, Node.js, PHP</li>
+            </ul>
+          </div>
+
+          <!--<div class="col-lg-6">
 
             <div class="progress">
               <span class="skill">HTML <i class="val">100%</i></span>
@@ -260,7 +269,7 @@
               </div>
             </div>
 
-          </div>
+          </div>-->
 
         </div>
 
@@ -278,7 +287,7 @@
         <div class="row">
           <div class="col-lg-12 award-item">
             <p>Animation & Digital Arts, Image Processing, Video Processing, Machine Learning, Robotics, User Experience, Philosophy, 
-              Charcoal drawing, <a href="www.instagram.com/besteekmen">Photography</a>, <a href="www.couchsurfing.com/people/besteekmen">Backpacking (travel)</a>
+              Charcoal drawing, <a href="https://www.instagram.com/besteekmen">Photography</a>, <a href="https://www.couchsurfing.com/people/besteekmen">Backpacking (travel)</a>
               (20 countries visited), Hitchhiking, Nature Sports (Swimming, Trekking, Hiking, Skiing), Camping, Reading, Playing Violin, 
               Volunteering</p>
           </div>
@@ -431,8 +440,10 @@
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-ml">ML &amp; CV</li>
+              <li data-filter=".filter-graphics">Graphics</li>
               <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-desktop">Desktop</li>
               <!--<li data-filter=".filter-web">Web</li>-->
             </ul>
           </div>
@@ -440,7 +451,7 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/raytracer.png" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -465,6 +476,32 @@
                   <!-- <a href="assets/img/portfolio/trafficmode.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="https://github.com/besteekmen/TrafficApp" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
                   <a href="https://github.com/besteekmen/TrafficApp"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/germany-decoded.png" class="img-fluid" alt="Germany Decoded answering a tenancy-law question">
+              <div class="portfolio-info">
+                <h4>Germany Decoded</h4>
+                <p>RAG assistant, hybrid retrieval</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/besteekmen/germany-decoded"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ml">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/wgan-artwork.png" class="img-fluid" alt="Generated artwork samples from the inpainting GAN">
+              <div class="portfolio-info">
+                <h4>Artwork Inpainting</h4>
+                <p>Master's thesis, GAN</p>
+                <div class="portfolio-links">
+                  <a href="https://github.com/besteekmen/WGAN-Artwork"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -714,7 +751,9 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <p>The quickest way to reach me is by email: <a href="mailto:besteekmen@gmail.com">besteekmen@gmail.com</a>, or on <a href="https://www.linkedin.com/in/besteekmen">LinkedIn</a> and <a href="https://github.com/besteekmen">GitHub</a>.</p>
+
+            <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -735,7 +774,7 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+            </form>-->
 
           </div>
 
@@ -754,11 +793,10 @@
       <div class="social-links">
         <a href="https://www.linkedin.com/in/besteekmen" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://www.instagram.com/besteekmen" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.facebook.com/ekmenb" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="https://join.skype.com/invite/hb4Eu1N2HcA4" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://github.com/besteekmen" class="github"><i class="bx bxl-github"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Beste Ekmen</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
